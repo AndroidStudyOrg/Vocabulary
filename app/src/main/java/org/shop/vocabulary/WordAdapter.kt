@@ -8,7 +8,7 @@ import org.shop.vocabulary.databinding.ItemWordBinding
 
 class WordAdapter(
     private val itemclickListener: ItemClickListener? = null,
-    private val list: MutableList<Word>
+    val list: MutableList<Word>
 ) :
     RecyclerView.Adapter<WordAdapter.WordViewHolder>() {
 
