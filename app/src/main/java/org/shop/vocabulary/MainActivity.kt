@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity(), WordAdapter.ItemClickListener {
             if (result.resultCode == RESULT_OK && isUpdated == true) {
                 updateAddWord()
             }
-
         }
 
     private val updateEditWordResult =
@@ -30,7 +29,6 @@ class MainActivity : AppCompatActivity(), WordAdapter.ItemClickListener {
             if (result.resultCode == RESULT_OK && editWord != null) {
                 updateEditWord(editWord)
             }
-
         }
 
     override fun onCreate(savedInstanceState: Bundle?) {
